@@ -36,12 +36,3 @@ A powerful AI-powered tool built with **Python**, **Streamlit**, and **Groq’s 
 | SQLite | Lightweight database |
 | PDFKit / ReportLab | Export questions to PDF |
 
----
-
-## 🚀 How to Run Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/ai-interview-generator.git
-cd ai-interview-generator
