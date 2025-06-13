@@ -1,0 +1,24 @@
+- create venv and install all libraries
+streamlit
+groq
+python-dotenv
+opencv-python
+pillow
+pytesseract
+pdfplumber
+numpy
+pandas
+scikit-learn
+
+You must install Tesseract OCR separately (not a Python package). 
+After install:
+Add Tesseract path to your system PATH
+
+Or specify in code like:
+
+python
+Copy code
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Fil\Tesseract-OCR\tesseract.exe'
+Create a .env file in your root folder: 
+GROQ_API_KEY=your_groq_api_key
+GROQ_MODEL=llama3-8b-8192
