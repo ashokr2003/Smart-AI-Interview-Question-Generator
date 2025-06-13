@@ -17,13 +17,6 @@ A powerful AI-powered tool built with **Python**, **Streamlit**, and **Groq’s 
 - 💾 **Question Storage** – Stores questions in SQLite DB for history or tracking
 
 ---
-
-## 📸 Demo Screenshot
-
-(You can add screenshots here)
-
----
-
 ## 🔧 Technologies Used
 
 | Tool | Purpose |
@@ -36,3 +29,18 @@ A powerful AI-powered tool built with **Python**, **Streamlit**, and **Groq’s 
 | SQLite | Lightweight database |
 | PDFKit / ReportLab | Export questions to PDF |
 
+Set Up Virtual Environment
+python -m venv venv
+venv\Scripts\activate
+
+Install Dependencies
+pip install -r requirements.txt
+
+
+Create .env File
+Add your Groq API Key in .env file
+GROQ_API_KEY=your_api_key_here
+GROQ_MODEL=llama3-8b-8192
+
+Run App
+streamlit run app.py
